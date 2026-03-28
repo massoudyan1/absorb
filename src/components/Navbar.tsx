@@ -26,7 +26,7 @@ export function Navbar({ cartCount, onCartClick }: NavbarProps) {
         </Link>
         <Link
           to="catalogue"
-          className={`font-headline uppercase tracking-[-0.02em] font-bold text-sm px-2 transition-none ${location.pathname === "/" ? "text-white border-b-2 border-white pb-1" : "bg-white text-black hover:bg-transparent hover:text-white hover:border-b-2 hover:border-outline-variant pb-1"}`}
+          className={`font-headline uppercase tracking-[-0.02em] font-bold text-sm px-2 transition-none ${location.pathname === "/catalogue" ? "text-white border-b-2 border-white pb-1" : "bg-white text-black hover:bg-transparent hover:text-white hover:border-b-2 hover:border-outline-variant pb-1"}`}
         >
           CATALOGUE
         </Link>
