@@ -62,7 +62,7 @@ export default function App() {
 
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Navigate to="/catalogue" replace />} />
+            <Route path="/" element={<Navigate to="catalogue" replace />} />
             <Route
               path="catalogue"
               element={<Shop onAddToCart={addToCart} />}
